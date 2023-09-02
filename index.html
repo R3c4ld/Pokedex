@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="contenedor active" id="contenedor">
+        <header class="header">
+            <div class="contenedor-logo">
+                <button id="boton-menu" class="boton-menu"><i  class="fa-solid fa-bars"></i></button>
+                <a href="#" class="logo"><img width="100px" height="45px" src="imagenes/Pokeapi.png" alt=""></a>
+            </div>
+            <div class="barra-busqueda">
+                <input class="input" id="input" type="text" placeholder="Buscar Pokemon">
+                <button type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="botones-header">
+                <a href="#"><img width="40px" height="40px" src="imagenes/Gorra-Ash.png" alt=""></a>
+                <a href="#"><img width="40px" height="40px" src="imagenes/Pikachu1.png" alt=""></a>
+                <a href="#"><img width="40px" height="40px" src="imagenes/pokebola1.png" alt=""></a>
+            </div>
+        </header>
+        <nav class="menu-lateral" id="menu-lateral">
+            <a href="#" class="btnFiltro" id="todos"><img src="imagenes/pokebola1.png" alt=""><span>All</span></a>
+            <a href="#" class="btnFiltro" id="grass"><img src="imagenes/Grass.png" alt=""><span>Grass</span></a>
+            <a href="#" class="btnFiltro" id="poison"><img src="imagenes/Poison.png" alt=""><span>Poison</span></a>
+            <a href="#" class="btnFiltro" id="electric"><img src="imagenes/Electric.png" alt=""><span>Electric</span></a>
+            <a href="#" class="btnFiltro" id="ghost"><img src="imagenes/Ghost.png" alt=""><span>Ghost</span></a>
+            <a href="#" class="btnFiltro" id="fairy"><img src="imagenes/Fairy.png" alt=""><span>Fairy</span></a>
+            <a href="#" class="btnFiltro" id="fire"><img src="imagenes/Fire.png" alt=""><span>Fire</span></a>
+            <a href="#" class="btnFiltro" id="psychic"><img src="imagenes/Psychic.png" alt=""><span>Psychic</span></a>
+            <a href="#" class="btnFiltro" id="rock"><img src="imagenes/Rock.png" alt=""><span>Rock</span></a>
+            <a href="#" class="btnFiltro" id="ground"><img src="imagenes/Ground.png" alt=""><span>Ground</span></a>
+            <a href="#" class="btnFiltro" id="flying"><img src="imagenes/Flying.png" alt=""><span>Flying</span></a>
+            <a href="#" class="btnFiltro" id="dark"><img src="imagenes/dark.png" alt=""><span>Dark</span></a>
+            <a href="#" class="btnFiltro" id="steel"><img src="imagenes/Steel.png" alt=""><span>Steel</span></a>
+            <a href="#" class="btnFiltro" id="bug"><img src="imagenes/Bug.png" alt=""><span>Bug</span></a>            
+            <a href="#" class="btnFiltro" id="dragon"><img src="imagenes/Dragon.png" alt=""><span>Dragon</span></a>
+            <a href="#" class="btnFiltro" id="fighting"><img src="imagenes/Fighting.png" alt=""><span>Fighting</span></a>
+            <a href="#" class="btnFiltro" id="normal"><img src="imagenes/Normal.png" alt=""><span>Normal</span></a>
+            <a href="#" class="btnFiltro" id="ice"><img src="imagenes/Ice.png" alt=""><span>Ice</span></a>
+            <a href="#" class="btnFiltro" id="water"><img src="imagenes/Water.png" alt=""><span>Water</span></a>
+
+        </nav>
+           
+        <main  class="main" id="main">            
+            <!--
+            <a class="tarjetas" href="#" style="background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png')">
+                <div class="textos">
+                    <h3>Rock In Rio</h3>
+					<p>27 de Octubre 2021</p>
+                </div>
+            </a> 
+             -->	
+        </main>
+        <div class="overlay" id="overlay">
+           
+        </div>
+    <script src="https://kit.fontawesome.com/6f577e1a0f.js" crossorigin="anonymous"></script>
+    <script src="pokedex.js"></script>
+</body>
+</html>
